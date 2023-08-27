@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: khaki;
+  display: flex;
+}
+.first {
+  height: 100%;
+  width: 26%;
+  background-color: rgb(139, 165, 127);
+}
+.second {
+  height: 100%;
+  width: 64%;
+  background-image: url(/mahe.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.soverlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(135, 167, 135, 0.469);
+}
+.third {
+  height: 100%;
+  width: 10%;
+  background-color: rgb(139, 165, 127);
+}
+.text {
+  position: absolute;
+  color: #d3d3d3;
+  height: 300px;
+  width: 400px;
+  left: 8%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.text h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 48px;
+}
+.img {
+  height: 400px;
+  width: 300px;
+  background-image: url(/mahe.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  transform: translate(0, -50%);
+}
+.rtext {
+  position: absolute;
+  width: 100%;
+  right: -64%;
+  top: 45%;
+}
+.rtext h1 {
+  font-size: 70px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fbf2f2;
+  color: transparent;
+  transform: rotate(90deg);
+}
+.nav {
+  display: flex;
+  position: absolute;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7vw;
+  padding: 20px 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  left: 6%;
+}
+.nav h6 {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: beige;
+}
+.nav .img1 {
+  height: 100px;
+  width: 100px;
+  background-image: url(/mahe.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
